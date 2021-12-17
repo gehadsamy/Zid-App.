@@ -1,0 +1,22 @@
+@import "../../../style/mixins";
+@import "../../../style/variables";
+
+.Features {
+    margin-top: 9rem;
+    h3 {
+        font-size: 24px;
+        line-height: 64px;
+        font-weight: 600;
+
+        letter-spacing: -1px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .main__button {
+        background-color: $white;
+    }
+}

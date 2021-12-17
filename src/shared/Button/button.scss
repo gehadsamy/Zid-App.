@@ -1,0 +1,20 @@
+@import '../../style/variables';
+@import '../../style/mixins';
+
+
+.main__button{
+    background: $main-color;
+border-radius: 10px;
+border: none;
+color: $primary-text-color;
+width: 295px;
+height: 60px;
+font-size: 18px;
+line-height: 34px;
+
+.browse-apps{
+    width: 32.84px;
+height: 19.71px;
+    transform: rotate(90deg);
+}
+}

@@ -1,0 +1,27 @@
+@import "../../../style/mixins";
+@import "../../../style/variables";
+.FeaturesCard {
+    .feature__card {
+        background-color: $bg-card;
+        border: none;
+        border-radius: 10px;
+    }
+    .Card__title {
+        line-height: 24px !important;
+
+        font-size: 10px;
+        .Card__title1 {
+            color: $black;
+        }
+        .Card__title2 {
+            color: rgba(0, 0, 0, 0.56);
+        }
+    }
+    .Card__content {
+        font-size: 10px;
+    }
+
+    .card-body {
+        padding: 1rem 0.5rem;
+    }
+}

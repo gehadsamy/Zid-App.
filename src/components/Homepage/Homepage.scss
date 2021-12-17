@@ -1,0 +1,32 @@
+@import "../../style/variables";
+@import "../../style/mixins";
+
+.btn-scrollup {
+    position: fixed;
+    cursor: pointer;
+    z-index: 99999999;
+    bottom: 3rem;
+    left: 5rem;
+
+    &:hover {
+        color: $main-text-color;
+    }
+}
+
+.chat-scrollup {
+    @extend %scroll;
+    bottom: 3rem;
+    right: 5rem;
+
+    &:hover {
+        color: $main-text-color;
+    }
+    &:hover {
+        color: $main-text-color;
+    }
+
+    svg {
+        height: 35px !important;
+        width: 35px !important;
+    }
+}

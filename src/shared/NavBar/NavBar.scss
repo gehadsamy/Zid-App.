@@ -1,0 +1,36 @@
+@import "../../style/variables";
+@import "../../style/mixins";
+
+.navbar {
+    background-color: $white;
+    color: $white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    margin-right: 15%;
+    
+
+    .navbar__container {
+        padding: 0 10%;
+        justify-content: flex-start !important;
+    }
+
+    .nav-link {
+        color: $black !important;
+        &:hover,
+        &:focus,
+        &:active,
+        &:active {
+            color: $main-color !important;
+            border-bottom: 2px solid $main-color;
+        }
+    }
+
+    a.nav-link {
+        margin: 0 2.5rem;
+        font-size: 16px;
+        line-height: 30px;
+    }
+}

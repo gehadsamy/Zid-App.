@@ -1,0 +1,49 @@
+@import "../../style/variables";
+@import "../../style/mixins";
+
+.header__container {
+    h1 {
+        color: $main-color;
+        font-weight: bold;
+        font-size: 35.5px;
+        line-height: 64px;
+        margin-top: 7rem;
+    }
+
+    p {
+        line-height: 34px;
+        font-size: 18px;
+    }
+
+    .banner__container {
+        position: relative;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        .img-container {
+            position: relative;
+            .banner {
+                height: 79%;
+                width: 109%;
+                top: 114.87px;
+                border-radius: 40px;
+                z-index: 1;
+            }
+
+            .Pattern {
+                position: absolute;
+                width: 20%;
+                top: -5%;
+                left: -17%;
+                z-index: -1;
+            }
+
+            .Ellipse {
+                position: absolute;
+                width: 45%;
+                top: 46%;
+                left: 65%;
+                z-index: -1;
+            }
+        }
+    }
+}

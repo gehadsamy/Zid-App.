@@ -1,0 +1,42 @@
+@import "../../style/variables";
+@import "../../style/mixins";
+.AppsReview {
+    background: $apps-bg;
+    .AppsReview__container {
+        padding: 4rem 2rem 2.6rem;
+        figure {
+            position: relative;
+        }
+        h2 {
+            color: $main-color;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 24px;
+            letter-spacing: -1px;
+        }
+        .appsgif {
+            filter: drop-shadow(0px 4px 19px rgba(0, 0, 0, 0.25));
+            border-radius: 40px;
+        }
+        .Pattern {
+            position: absolute;
+            width: 25%;
+            top: -10%;
+            left: -8%;
+        }
+        .Ellipse {
+            position: absolute;
+            width: 47%;
+            top: 37%;
+            left: 61%;
+        }
+    }
+    ul{
+        padding: 0;
+        .group{
+            padding-left: 4px;
+
+        }
+
+    }
+}
